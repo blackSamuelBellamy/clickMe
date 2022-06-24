@@ -33,18 +33,15 @@
 
 .boxOver {
 
-    position: absolute;
-    top: 15vh;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    width: 60vw;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background: url(https://i.ibb.co/L5W7fng/wp5156000.webp); 
     background-position: center;
     background-repeat: no-repeat;
-    width: 60vw;
-    height: 70vh;
     border-radius: 20px;
     cursor: pointer;
     transition: 1s;
@@ -85,10 +82,9 @@
 @media (max-width: 600px){
     
     .boxOver {
+
+        height: 50vh;
         
-        top: 30vh;
-        height: 40vh;
-        width: 80vw;
     }
 
     #ele1 {
