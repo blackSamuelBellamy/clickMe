@@ -34,9 +34,9 @@
 .boxOver {
 
     position: absolute;
-    top: 50vh;
+    top: 15vh;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,6 +85,8 @@
 @media (max-width: 600px){
     
     .boxOver {
+        
+        top: 30vh;
         height: 40vh;
         width: 80vw;
     }

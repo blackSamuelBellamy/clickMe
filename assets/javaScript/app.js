@@ -17,11 +17,11 @@ function pintar(color) { //  3.2 funcion con parametro de color
 
         count % 2 != 0 ?
             wallpaper.style.backgroundImage = 'url(https://i.ibb.co/L5W7fng/wp5156000.webp)' :
-            wallpaper.style.backgroundImage = 'url(assets/img/girl-play-spark-stick_2560x1440.jpg)';
+            wallpaper.style.backgroundImage = 'url(https://i.ibb.co/L00VgLF/Girl-play-spark-stick-2560x1440.jpg)';
 
         count % 2 != 0 ?
             boxOver.style.backgroundImage = 'url(https://i.ibb.co/L5W7fng/wp5156000.webp)' :
-            boxOver.style.backgroundImage = 'url(assets/img/girl-play-spark-stick_2560x1440.jpg)';
+            boxOver.style.backgroundImage = 'url(https://i.ibb.co/L00VgLF/Girl-play-spark-stick-2560x1440.jpg)';
 
         count++;
     }
