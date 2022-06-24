@@ -79,11 +79,12 @@
 }
 
 
+
 @media (max-width: 600px){
     
     .boxOver {
         position: absolute;
-        top: 20vh;
+        top: 21.6vh;
         left: 20vw;
         height: 50vh;
         width: 60vw;
@@ -92,5 +93,13 @@
 
     #ele1 {
         font-size: 18vw;
+    }
+}
+
+@media (max-width: 500px) and (orientation:landscape) {
+
+    .boxOver {
+        height: 80vh;
+        top: 0;
     }
 }
