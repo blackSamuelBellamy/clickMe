@@ -24,6 +24,9 @@
     background: url(https://i.ibb.co/L5W7fng/wp5156000.webp); 
     background-position: center;
     background-repeat: no-repeat;
+    transition: all 1s;
+
+
 }
 
 
@@ -39,7 +42,7 @@
     background-repeat: no-repeat;
     border-radius: 20px;
     cursor: pointer;
-    transition: 1s;    
+    transition: all 1s;    
 }
 
 .boxOver:hover {
