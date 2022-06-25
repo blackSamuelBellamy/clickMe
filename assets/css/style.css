@@ -4,17 +4,11 @@
     box-sizing: border-box;
 }
 
-body {
-    position: fixed;
-    top:0;
-    bottom:0;
-}
-
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
     position: fixed;
     top: 0;
@@ -23,25 +17,20 @@ body {
 }
 
 .wallpaper {
+    position: absolute;
+    z-index: 0;
     width: 100%;
-    min-height: 100vh; 
+    min-height: 100vh;
     background: url(https://i.ibb.co/L5W7fng/wp5156000.webp); 
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    transition: 1s;
-    position: fixed;
-    top: 0;
-    bottom: 0;
 }
 
 
-
 .boxOver {
-
     position: relative;
-    width: 60vw;
     height: 70vh;
+    width: 60vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,15 +39,12 @@ body {
     background-repeat: no-repeat;
     border-radius: 20px;
     cursor: pointer;
-    transition: 1s;
-   
-    
-
+    transition: 1s;    
 }
 
 .boxOver:hover {
 
-    box-shadow: 0 0 30px #ccc, 2px 4px 60px #ccc, 4px 8px 120px #000;
+    box-shadow: 0 0 10px #ccc, 0 0 20px #ccc, 0 0 10px #000;
 }
 
 #ele1 {
@@ -82,6 +68,7 @@ body {
     cursor: pointer;
     
     
+    
 }
 
 
@@ -89,10 +76,8 @@ body {
 @media (max-width: 600px){
     
     .boxOver {
-        
         height: 50vh;
-        width: 60vw;
-        
+        width: 70vw;
     }
 
     #ele1 {
@@ -100,9 +85,3 @@ body {
     }
 }
 
-@media (max-width: 800px) and (orientation:landscape) {
-
-    .boxOver {
-        height: 30vw;
-    }
-}

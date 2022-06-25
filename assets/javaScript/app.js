@@ -1,6 +1,5 @@
-const ele = document.getElementById("ele1"); //requerimiento 3.1
-
 const wallpaper = document.querySelector('.wallpaper');
+const ele = document.getElementById("ele1"); //requerimiento 3.1
 const boxOver = document.querySelector('.boxOver');
 
 let count = 2;
@@ -25,9 +24,6 @@ function pintar(color) { //  3.2 funcion con parametro de color
 
         count++;
     }
-
-
-
 }
 
 boxOver.addEventListener("click", function () {
@@ -35,7 +31,6 @@ boxOver.addEventListener("click", function () {
 });
 
 /* fin desafio */
-
 
 boxOver.addEventListener('mouseover', () => {
     wallpaper.style.filter = 'blur(5px)';
